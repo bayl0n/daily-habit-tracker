@@ -1,8 +1,10 @@
 /* NAVBAR */
 .navbar {
-    background-color: $primary-color;
+    background-color: $primary-background;
     width: 100%;
     height: 80px;
+    padding: 0 4rem;
+    padding-top: 2rem;
 }
 
 .navlist {
@@ -16,11 +18,24 @@
 }
 
 .navitem {
-    padding: 1rem;
+    padding: 1rem 2rem;
     list-style: none;
 }
 
 .navlink {
-    color: $light-color;
+    color: darken($primary-light, 10%);
     text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+        color: $primary-light;
+    }
+}
+
+/* LOGO */
+$logo-scale: 2;
+
+.logo {
+    fill: $primary-light;
+    width: 108px * $logo-scale;
+    height: 20px * $logo-scale;
 }

@@ -1,0 +1,14 @@
+<svg width="120" height="100" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="logo" clip-path="url(#clip0)">
+<g id="group">
+<path id="Intersect" fill-rule="evenodd" clip-rule="evenodd" d="M106 56L60 80.7487L14 56V65L60 89.7487L106 65V56Z" fill="#DFF3E4"/>
+<path id="Intersect_2" fill-rule="evenodd" clip-rule="evenodd" d="M106 40L60 64.7487L14 40V49L60 73.7487L106 49V40Z" fill="#DFF3E4"/>
+<path id="Rectangle 6" d="M60 53.2066L22.4425 33L60 12.7934L97.5575 33L60 53.2066Z" stroke="#DFF3E4" stroke-width="8"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="120" height="100" fill="white"/>
+</clipPath>
+</defs>
+</svg>
