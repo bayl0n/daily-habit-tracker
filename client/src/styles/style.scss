@@ -1,43 +1,8 @@
-$font-stack: Arial, Helvetica, sans-serif;
-$light-color: #f4f4f4;
-$primary-color: #264653;
-
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+@import 'reset';
+@import 'constants';
+@import 'components';
 
 body {
     background-color: $light-color;
     font-family: $font-stack;
-    line-height: 1.6;
 }
-
-.navbar {
-    background-color: $primary-color;
-    width: 100%;
-    height: 80px;
-    // Nav
-    ul {
-        display: flex;
-        max-width: 100%;
-        height: 100%;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 0.5rem;
-        text-decoration: none;
-        // Items
-        li {
-            padding: 1rem;
-            list-style: none;
-            // Links
-            a {
-                color: $light-color;
-                text-decoration: none;
-            }
-        }
-    }
-}
-

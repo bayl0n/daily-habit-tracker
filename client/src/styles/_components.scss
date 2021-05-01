@@ -1,0 +1,26 @@
+/* NAVBAR */
+.navbar {
+    background-color: $primary-color;
+    width: 100%;
+    height: 80px;
+}
+
+.navlist {
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.navitem {
+    padding: 1rem;
+    list-style: none;
+}
+
+.navlink {
+    color: $light-color;
+    text-decoration: none;
+}

@@ -3,8 +3,8 @@ import '../styles/style.css';
 
 function NavItem(props) {
     return (
-        <li>
-            <a href={props.href}>
+        <li className="navitem">
+            <a className="navlink" href={props.href}>
                 {props.children}
             </a>
         </li>
