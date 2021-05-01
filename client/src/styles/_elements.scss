@@ -1,0 +1,47 @@
+/* ELEMENTS */
+body {
+    background-color: $primary-background;
+    font-family: $font-stack;
+}
+
+h1 {
+    @include text;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+p {
+    @include text;
+}
+
+
+/* CLASSES */
+.fill {
+    width: 100%;
+}
+
+.intro-main {
+    // background-color: $primary-dark;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.intro-img-container {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.intro-img {
+    width: 560px;
+}
+
+.primary-btn {
+    @include btn($primary-dark);
+    width: 12rem;
+}
+
+.secondary-btn {
+    @include btn($secondary-dark);
+    width: 12rem;
+}

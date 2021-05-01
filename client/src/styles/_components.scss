@@ -23,11 +23,12 @@
 }
 
 .navlink {
-    color: darken($primary-light, 10%);
+    color: $primary-light;
     text-decoration: none;
+    transition: color 0.2s ease-out;
     &:hover {
-        text-decoration: underline;
-        color: $primary-light;
+        // text-decoration: underline;
+        color: darken($primary-light, 10%);
     }
 }
 

@@ -1,3 +1,4 @@
+/* VARIABLES */
 $font-stack: Arial, Helvetica, sans-serif;
 $primary-light: #DFF3E4;
 $primary-dark: #3423A6;
@@ -6,11 +7,8 @@ $secondary-dark: #7180B9;
 $primary-background: #171738;
 $secondary-background: #2E1760;
 
-body {
-    background-color: $primary-background;
-    font-family: $font-stack;
-}
+$font-size-default: 1.2rem;
 
-.fill {
-    width: 100%;
+body {
+    font-size: $font-size-default;
 }
