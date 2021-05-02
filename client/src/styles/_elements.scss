@@ -6,14 +6,13 @@ body {
 
 h1 {
     @include text;
-    font-weight: bold;
-    font-size: 2.5rem;
+    font-weight: bolder;
+    font-size: 3rem;
 }
 
 p {
     @include text;
 }
-
 
 /* CLASSES */
 .fill {
@@ -23,13 +22,20 @@ p {
 .intro-main {
     // background-color: $primary-dark;
     width: 100%;
-    max-width: 600px;
+    max-width: 1005px;
     margin: 0 auto;
 }
 
-.intro-img-container {
+.intro-heading {
+    font-size: 4rem;
+}
+
+.intro-container {
     margin-top: 4rem;
     text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .intro-img {
