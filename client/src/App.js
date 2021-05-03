@@ -31,8 +31,8 @@ function App() {
             <img src={IntroImg} alt="intro" className="intro-img" />
           </section>
           <section className="intro-text-container">
-            <h1 className="intro-heading">Track all your habits so you can make the bed.</h1>
-            <p>We understand that sometimes shitting the bed is very annoying. What we have done at HabitTracker is track when you need to take a massive dookie.</p>
+            <h1 className="intro-heading">Dolor proident tempor commodo tempor.</h1>
+            <p>Reprehenderit nostrud tempor minim minim irure dolore proident sint elit qui aliquip minim culpa et. Dolore minim ullamco deserunt cillum non.</p>
             <button className="secondary-btn">Get Started</button>
           </section>
         </section>
