@@ -5,6 +5,7 @@ import NavFill from './components/NavFill';
 import NavLogo from './components/NavLogo';
 
 import IntroImg from './icons/illustration-intro.png'
+import { ReactComponent as NinjaIcon } from './icons/ninja.svg';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <NavItem>
           <NavLogo href="#"/>
         </NavItem>
+        <NinjaIcon className="ninja" />
         <NavFill/>
         <NavItem href="#">
           Home
